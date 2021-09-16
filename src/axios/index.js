@@ -2,7 +2,7 @@ import Axios from 'axios';
 
 export const baseURL =
   process.env.NODE_ENV === 'production'
-    ? 'http://bankbackend.esfoly.ir:8000'
+    ? 'http://bankbackend.esfoly.ir'
     : 'http://localhost:8000'
 
 const baseAxios = Axios.create({
